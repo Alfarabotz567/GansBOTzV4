@@ -4,30 +4,30 @@ let fs = require('fs')
 global.owner = JSON.parse(fs.readFileSync('./src/owner.json')) // Ganti di Handler.js
 global.mods = JSON.parse(fs.readFileSync('./src/moderator.json')) // Want some help?
 
-global.namabot = '𝑮𝒂𝒏𝒔𝑩𝑶𝑻𝒛-𝑽2' //nama BOT Lu
-global.packname = '𝑮𝒂𝒏𝒔𝑩𝑶𝑻𝒛-𝑽2'
-global.author = 'Deffri Gans' //nama Owner
-global.ownernya = '628887816980'
-global.linkyt = 'https://youtube.com/channel/UCmEQy5B3GhmfNVSrHEzv-uA' //link yt lu
-global.linkig = 'https://instagram.com/b4c00t.dtz' //link ig lu
-global.linkgh = '-' //link github lu
-global.titlebot = `⫹⫺ WhatsApp Bot | By 𝙳𝚎𝚏𝚏𝚛𝚒 𝙶𝚊𝚗𝚜`
-global.wm2 = 'hoh' //ganti aja kalau mau
-global.wm = '𝑮𝒂𝒏𝒔𝑩𝑶𝑻𝒛'
+global.namabot = 'Alfarabotz MD' //nama BOT Lu
+global.packname = 'Alfarabotz MD'
+global.author = 'Irfaan Official' //nama Owner
+global.ownernya = '6285624823115'
+global.linkyt = 'https://youtube.com/channel/UCaFh82MyrVgcgIvJxvTA39w' //link yt lu
+global.linkig = 'https://instagram.com/irfaanabdulhafizh' //link ig lu
+global.linkgh = 'https://github.com/Alfarabotz567' //link github lu
+global.titlebot = `⫹⫺ WhatsApp Bot | By Irfaan Official`
+global.wm2 = 'Irfaan Official' //ganti aja kalau mau
+global.wm = 'Alfarabotz'
 global.colong1 = 'Ciss 📸'
-global.colong2 = '𝑮𝒂𝒏𝒔𝑩𝑶𝑻𝒛シ︎'
+global.colong2 = 'Alfarabotzシ︎'
 global.kontak2 = [
-['628887816980', '𓂺', '𝙊𝙬𝙣𝙚𝙧', 'Sᴀᴠᴇ Aᴊᴀ Yᴇ Oᴡɴᴇʀ Kᴜ Bᴀɪᴋ Kᴏᴋ', true],
+['6285624823115', '𓂺', '𝙊𝙬𝙣𝙚𝙧', 'Sᴀᴠᴇ Aᴊᴀ Yᴇ Oᴡɴᴇʀ Kᴜ Bᴀɪᴋ Kᴏᴋ', true],
 ]
 
 //Biodata OWNER Bre
-global.RL = 'HAMBAH ALLAH' //jenis kelamin lu
+global.RL = 'Hᴀᴍʙᴀ Aʟʟᴀʜ' //jenis kelamin lu
 global.gender = 'Boys' //jenis kelamin lu
 global.agama = 'islam' //agama lu
-global.age = '18' //usia lu sekarang
-global.kelas = 'Udah LuLus' //kelas lu
+global.age = '14' //usia lu sekarang
+global.kelas = '8' //kelas lu
 global.hobi = 'Gaming/editing/ngoding' //hobi lu bre
-global.tempat = 'INDONESIA , medan Sumatra Utara' //tempat tinggal lu
+global.tempat = 'INDONESIA , Tasikmalaya Jawa barat' //tempat tinggal lu
 
 global.APIs = { // API Prefix
   // name: 'https://website'
@@ -71,7 +71,7 @@ global.eror = '_*𝒎𝒂𝒂𝒇 𝒔𝒆𝒓𝒗𝒆𝒓 𝒆𝒓𝒓𝒐𝒓.
 
 //========Url Template Buttons=========//
 global.dtu = 'Group bot'
-global.urlnya = "https://chat.whatsapp.com/Dj8kMyI48u6KGbaAQtKi70"
+global.urlnya = "https://chat.whatsapp.com/CMJv1GXTUht1A1be7ocTY2"
 
 //============= callButtons =============//
 global.dtc = '𝒄𝒂𝒍𝒍 𝒐𝒘𝒏𝒆𝒓'
