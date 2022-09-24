@@ -10,13 +10,13 @@ let stiker = await sticker(null, global.API(`https://telegra.ph/file/a32b24ef4c1
 type: 'audioMessage', 
 ptt: false, seconds: 9999999,contextInfo: {
          externalAdReply: { showAdAttribution: true,
- mediaUrl: 'https://youtube.com/channel/UCmEQy5B3GhmfNVSrHEzv-uA',
+ mediaUrl: 'https://youtube.com/channel/UCaFh82MyrVgcgIvJxvTA39w',
     mediaType: 2, 
     description: 'https://youtube.com/channel/UCmEQy5B3GhmfNVSrHEzv-uA',
-    title: "Tunggu Sebentar Stah",
+    title: "Tunggu Sebentar Bang",
     body: wm,
     thumbnail: await (await fetch('https://telegra.ph/file/6411cc04828f3cc335324.jpg')).buffer(),
-    sourceUrl: 'https://youtube.com/channel/UCmEQy5B3GhmfNVSrHEzv-uA'
+    sourceUrl: 'https://youtube.com/channel/UCaFh82MyrVgcgIvJxvTA39w'
   }
   } })
   let audio = `https://raw.githubusercontent.com/Aisyah-Aldi/Sound/main/${command}.mp3`
@@ -25,13 +25,13 @@ await conn.sendFile(m.chat, audio, 'error.mp3', null, fkontak, true, {
 type: 'audioMessage', 
 ptt: false, seconds: 9999999,contextInfo: {
          externalAdReply: { showAdAttribution: true,
- mediaUrl: 'https://youtube.com/channel/UCmEQy5B3GhmfNVSrHEzv-uA',
+ mediaUrl: 'https://youtube.com/channel/UCaFh82MyrVgcgIvJxvTA39w',
     mediaType: 2, 
-    description: 'https://youtube.com/channel/UCmEQy5B3GhmfNVSrHEzv-uA',
+    description: 'https://youtube.com/channel/UCaFh82MyrVgcgIvJxvTA39w',
     title: "⌫     ⌨︎     ☏︎",
     body: wm,
     thumbnail: await (await fetch('https://telegra.ph/file/6411cc04828f3cc335324.jpg')).buffer(),
-    sourceUrl: 'https://youtube.com/channel/UCmEQy5B3GhmfNVSrHEzv-uA'
+    sourceUrl: 'https://youtube.com/channel/UCaFh82MyrVgcgIvJxvTA39w'
   }
   } })
 }
