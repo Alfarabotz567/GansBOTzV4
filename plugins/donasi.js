@@ -55,8 +55,11 @@ let duit = `*────── 「 DONATE 」 ──────*
 Hai 👋
 Kalian bisa mendukung saya agar bot ini tetap up to date dengan:
 
-┌〔 Donasi • ALL Payment 〕
-├🔃 Scan Barcod Qrisnya diatas🤗
+┌〔 Donasi • Dana 〕
+├ 0895-3170-4997
+└────
+┌〔 Donasi • Pulsa Im3〕
+├ 0816-4682-9895
 └────
 
 Berapapun donasi kalian akan sangat berarti 👍
@@ -64,8 +67,7 @@ Berapapun donasi kalian akan sangat berarti 👍
 
 Contact person Owner:
 wa.me/628887816980 (Owner)`
-let imgnya = 'https://telegra.ph/file/bd2f2486f2543bf08854e.jpg'
-  conn.sendButtonImg(m.chat, imgnya, duit, wm, 'OWNER', '.owner', ftoko, { gifPlayback: true, contextInfo: { externalAdReply: {title: namabot, body: date, sourceUrl: linkyt, thumbnail: fs.readFileSync('./thumbnail.jpg') }}})
+  conn.sendButtonImg(m.chat, duit, wm, 'OWNER', '.owner', ftoko, { gifPlayback: true, contextInfo: { externalAdReply: {title: namabot, body: date, sourceUrl: linkyt, thumbnail: fs.readFileSync('./thumbnail.jpg') }}})
 }
 
 handler.help = ['donasi']
