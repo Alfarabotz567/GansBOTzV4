@@ -39,7 +39,7 @@ const defaultMenu = {
   body: '┆⬡ %cmd %islimit %isPremium',
   footer: '┗━───────⬣\n',
   after: `
-*GansBOTz@^%version*
+*Alfarabotz@^%version*
 ${'```%npmdesc```'}
 `,
 }
