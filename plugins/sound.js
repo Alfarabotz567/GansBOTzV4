@@ -15,7 +15,7 @@ ptt: false, seconds: 9999999,contextInfo: {
     description: 'https://youtube.com/channel/UCmEQy5B3GhmfNVSrHEzv-uA',
     title: "Tunggu Sebentar Bang",
     body: wm,
-    thumbnail: await (await fetch('https://telegra.ph/file/6411cc04828f3cc335324.jpg')).buffer(),
+    thumbnail: await (await fetch('https://telegra.ph/file/2b669452f7517d2b5097a.jpg')).buffer(),
     sourceUrl: 'https://youtube.com/channel/UCaFh82MyrVgcgIvJxvTA39w'
   }
   } })
@@ -28,9 +28,9 @@ ptt: false, seconds: 9999999,contextInfo: {
  mediaUrl: 'https://youtube.com/channel/UCaFh82MyrVgcgIvJxvTA39w',
     mediaType: 2, 
     description: 'https://youtube.com/channel/UCaFh82MyrVgcgIvJxvTA39w',
-    title: "⌫     ⌨︎     ☏︎",
+    title: "▶︎ ━━━━━━━●────────── ",
     body: wm,
-    thumbnail: await (await fetch('https://telegra.ph/file/6411cc04828f3cc335324.jpg')).buffer(),
+    thumbnail: await (await fetch('https://telegra.ph/file/1f8e012df6e4aca2fbd11.jpg')).buffer(),
     sourceUrl: 'https://youtube.com/channel/UCaFh82MyrVgcgIvJxvTA39w'
   }
   } })
