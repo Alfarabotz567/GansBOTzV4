@@ -11,7 +11,7 @@ let str = `*Hai Ngab*`
 let isi =`Hai,Aku Adalah Bot Yang Diberi Nama Alfarabotz,Aku Di Kembangkan Oleh Seseorang Yang Bernama Irfaan-Official,Beliau Masih Pemula Dan Masih Belajar Banyak Hal,Dan tujuannya Hanya Ingin Tau Apa Yang Ingin Di ketahui Di Dunia Bot,\nꜱɪʟᴀʜᴋᴀɴ ᴋᴇᴛɪᴋ ᴛᴏᴍʙᴏʟ ᴍᴇɴᴜ ᴜɴᴛᴜᴋ ᴍᴇɴᴀᴍᴘɪʟᴋᴀɴ ᴍᴇɴᴜ ʙᴏᴛ.\n${tag} (Owner)`
 let wibu = `https://api-reysekha.herokuapp.com/api/random/cosplay?apikey=apirey` 
 let thumb = await(await fetch(wibu)).buffer()
-conn.send3ButtonImg(m.chat, `https://telegra.ph/file/6411cc04828f3cc335324.jpg`, str, isi, 'Menu', '.command', 'Owner', '.owner', 'Credit', '.credit', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
+conn.send3ButtonImg(m.chat, `https://telegra.ph/file/8db3c0139e5d3fe646519.jpg`, str, isi, 'Menu', '.command', 'Owner', '.owner', 'Credit', '.credit', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
     mediaUrl: 'https://instagram.com/irfaanabdulhafizh',
     mediaType: 2, 
     description: urlnya,
