@@ -9,7 +9,7 @@ m.reply(anu)
 handler.help = ['virtex10']
 handler.tags = ['war']
 handler.command = /^(virtex10)$/i
-handler.owner = false
+handler.owner = true
 handler.mods = false
 handler.premium = false
 handler.group = false
