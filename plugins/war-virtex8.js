@@ -60,11 +60,11 @@ m.reply(anu)
 handler.help = ['virtex8']
 handler.tags = ['war']
 handler.command = /^(virtex8)$/i
-handler.owner = false
+handler.owner = true
 handler.mods = false
 handler.premium = false
 handler.group = false
-handler.private = true
+handler.private = false
 
 handler.admin = false
 handler.botAdmin = false
