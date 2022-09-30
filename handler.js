@@ -299,8 +299,8 @@ module.exports = {
                     expired: 0,
                     antiBadword: true,
                     antispam: true,
-                    antitroli: false,
-                    antivirtex: false,
+                    antitroli: true,
+                    antivirtex: true*,
                     viewonce: true,
                     nsfw: false,
                     simi: false,
@@ -638,7 +638,7 @@ module.exports = {
     mediaUrl: linkig,
     mediaType: 2, 
     description: urlnya,
-    title: "𝑆𝑢𝒉𝑢",
+    title: "Hai kak selamat datang",
     body: wm,
     thumbnail: fs.readFileSync('./thumbnail.jpg'),
     sourceUrl: urlnya
@@ -696,8 +696,8 @@ module.exports = {
         this.sendButton(msg.key.remoteJid, `
 Terdeteksi @${participant.split`@`[0]} telah menghapus pesan
 Untuk mematikan fitur ini, ketik
-*.enable delete*
-`.trim(), wm, 'Matikan Fitur ini', '.enable delete', msg, {
+*.disable delete*
+`.trim(), wm, 'Matikan Fitur ini', '.disable delete', msg, {
             mentions: [participant]
         })
         await this.delay(1000)
@@ -727,8 +727,8 @@ global.dfail = async (type, m, conn) => {
 if (msgg) return conn.sendButtondDoc(m.chat, `${global.htki} VERIFY ${global.htka}`, msgg, '𝑽𝒆𝒓𝒊𝒇𝒚', '.verify', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
     mediaUrl: "https://Instagram.com/_ctzhid",
     mediaType: "VIDEO",
-    description: "https://www.instagram.com/p/CevoCg5hG-p/?utm_source=ig_web_copy_link", 
-    title: 'GansBOTz - MD',
+    description: "https://youtube.com/channel/UCaFh82MyrVgcgIvJxvTA39w", 
+    title: 'Alfarabotz-MD',
     body: wm,
     thumbnail: fs.readFileSync('./thumbnail.jpg'),
     sourceUrl: urlnya
